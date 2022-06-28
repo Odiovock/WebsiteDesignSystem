@@ -1,0 +1,39 @@
+h1 {
+    text-align: center;
+    font-family: "Zilla Slab", serif;
+    font-size: 50px;
+}
+
+.container {
+    border: 5px solid black;
+    width: 80%;
+    Margin: 100px auto;
+}
+
+.container h2 {
+    text-align: center;
+    font-family: "Heebo", sans-serif;
+    font-size: 35px;
+}
+
+.subContainer {
+    display: inline-block;
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    height: 50px;
+    width: 33%;
+    Margin: 10px;
+    padding: 5px 0px;
+}
+
+.aqua {
+    background-color: aqua;
+}
+
+.pastel-yellow {
+    background-color: #FDFD96;
+}
+
+.rose-quartz  {
+    background-color: #F4B9B8;
+}
