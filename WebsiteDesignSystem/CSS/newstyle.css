@@ -8,6 +8,7 @@ h1 {
     border: 5px solid black;
     width: 80%;
     Margin: 100px auto;
+    position: relative;
 }
 
 .container h2 {
@@ -20,10 +21,25 @@ h1 {
     display: inline-block;
     text-align: center;
     font-family: 'Libre Baskerville', serif;
-    height: 50px;
-    width: 33%;
-    Margin: 10px;
+    min-height: 75px;
+    width: 32%;
     padding: 5px 0px;
+    margin-top: 20px;
+}
+
+.firstRowItem {
+    position: relative;
+    left: 0%;
+}
+
+.secondRowItem {
+    position: absolute;
+    left: 34%;
+}
+
+.lastRowItem {
+    position: absolute;
+    left: 68%;
 }
 
 .aqua {
@@ -36,4 +52,8 @@ h1 {
 
 .rose-quartz  {
     background-color: #F4B9B8;
+}
+
+.test {
+    background-color: black;
 }
